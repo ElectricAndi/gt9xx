@@ -112,6 +112,13 @@ static const struct dmi_system_id rotated_screen[] = {
 			DMI_MATCH(DMI_PRODUCT_NAME, "TW700")
 		},
 	},
+	{
+		.ident = "TECLAST X98Pro",
+		.matches = {
+			DMI_MATCH(DMI_SYS_VENDOR, "TECLAST"),
+			DMI_MATCH(DMI_PRODUCT_NAME, "X98Pro")
+		},
+	},
 #endif
 	{}
 };
